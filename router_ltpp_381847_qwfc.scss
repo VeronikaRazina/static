@@ -1,0 +1,106 @@
+apple * 67
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const randomNumber = getRandomNumber();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+false + true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+kiwi
+
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const isEven = num => num % 2 === 0;
+// This is a comment
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+
+const multiply = (a, b) => a * b;
+apple
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+71,86,17,1,43,76,66,33,94,86,43,43,38,10,79,25,46,79,71,56,55,18,26,31,31,56,12,66,89,70,23,49,18,78,89,88,33,76,32,77,30,25,97,17,42,54,65,12,22,39,71,0,27,28,46,20,34,36,34,52,85,69,11,84,50,59,75,7,41,78,94,61,9,6,45,84,83,33,30,73,58,32,93,93,55,71,29,55,99,3,46,29,38,98,61,44 + 57,46,31,72,55,36,22,51,85,8,57,38,99,51,30,45,1,43,49,74,1,43,70,7,72,31,63
+const findLargestNumber = numbers => Math.max(...numbers);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+apple + banana
+const squareRoot = num => Math.sqrt(num);
+banana * 43,72,16,94,39,23,13,9,48,23,80,62,44,34,54,71,1,76,95,54,76,45,49,10,59,9,86,2,84,60,32,99,97,55,58,51,49,97,69,10,35,2,99,0,80,60
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange / grape
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+96 + 35
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+60 - false
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+orange - false
+const formatDate = date => new Date(date).toLocaleDateString();
+orange / 30
+
+const randomNumber = getRandomNumber();
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+// This is a comment
+const reverseString = str => str.split("").reverse().join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+banana
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const multiply = (a, b) => a * b;
+console.log(getRandomString());
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getRandomSubset = (array, size) => array.slice(0, size);
+apple * 96,56,24,0,79,56,61,69,45,73,76,41,42,2,83,19,75,7,1,45,3,37,62,0,99,30,43,24,69,75,86,19,76,51,95,79,60,36,86,9,38,17,76,69,68,66,1,10,86,37,49,20,6,55,28,49,18,44,28,76,81,67
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+kiwi
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+// This is a comment
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+20,3,26,25,71,96,23,24,40,8,1,74,92,72,83,98,20,75,0,18,39,49,86,86,74,60,66,68,46,0,41,71,24,90,44,60,80,15,32,86,12,47,57,65,18,16,34,7,69,44,84,90 / banana
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+16,92,32,86,92,99,74,55,18,4,0,3,72,13,58,73,99,83,76,14,14,56,70,94,53,8,6,95,27,38,41,7,67,96,7,11,0,7,91,2,88,12,52,8,69,71,51,76,46,79,6,76,16,86,4,64,65,58,41,59,74,34,48,71,34,64,50,90,38,21,91,97,24,82,72,77,18,3,52 / 39,90,39,45,20,19,77,18,67
+const multiply = (a, b) => a * b;
+47 + kiwi
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+kiwi / false
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+63 - 46
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const isEven = num => num % 2 === 0;
+62,87,58,16,54,95,0,19,84,95,53,35,28,95,83,41,83,31,95,21,46,54,37,98,46,11,15,40,30,18,37,20,15,83,19,51,25,53,13,3,45,87,3,26,80,30,15,72,27,30,94,63,15,13,96,19,99,22,5,32,71,14,65,15,36,51,51,3,3,74,32,96,60,93,32,30,77,33,60,56,2,12,46,7,52 / true
+const multiply = (a, b) => a * b;
+
+const greet = name => `Hello, ${name}!`;
+const squareRoot = num => Math.sqrt(num);
+const findLargestNumber = numbers => Math.max(...numbers);
+const reverseString = str => str.split("").reverse().join("");
+grape / true
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+banana
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
